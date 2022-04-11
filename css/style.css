@@ -36,6 +36,18 @@ img{
     max-width: 1280px;
     margin: 0 auto;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 .site-header {
     padding-top: 44px;
     padding-bottom: 44px;
@@ -536,6 +548,21 @@ img{
     line-height: 25px;
     text-align: center;
 }
+.site-card-link--visual{
+    margin-left: 60px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0E8784;
+    color: #fefcf7;
+    border-radius: 6px;
+    padding: 15px 31px 16px 31px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
 .site-footer__wrraper{
     display: flex;
     flex-direction: column;
