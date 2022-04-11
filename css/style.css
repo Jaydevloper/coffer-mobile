@@ -339,6 +339,8 @@ img{
     margin-right: 369px;  
 }
 
+
+
 @media only screen and (max-width:568px){
     
  
@@ -510,19 +512,19 @@ img{
     display: flex;
     flex-direction: column;
     top: 305px;
+    left: 22px;
 }
 .site-list-content__item:not(:last-child) {
     margin-bottom: 24px;
     margin-right: 0;
 }
 .site-main-article__head {
-    padding-top: 120px;
-    padding-left: 86px;
+    padding-top: 24px;
+    padding-left: 24px;
 }
 .site-main-article-list {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
 }
 .site-main-article-list__item:not(:last-child){
     margin-right: 0px;
@@ -549,7 +551,7 @@ img{
     text-align: center;
 }
 .site-card-link--visual{
-    margin-left: 60px;
+    margin-left: 24px;
     display: inline-block;
     text-decoration: none;
     background-color: #0E8784;
